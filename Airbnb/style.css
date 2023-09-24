@@ -542,7 +542,7 @@ body {
         margin-left: 12px;
     }
 
-    .header-container {
+    header {
         border-bottom: 1px solid rgba(0, 0, 0, 0.08);
     }
 
