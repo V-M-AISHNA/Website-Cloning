@@ -191,7 +191,7 @@ body {
 }
 
 /* --main-section-- */
-.main-section{
+main{
     margin-top: 24px;
     margin-bottom: 30px;
     padding: 0 24px;
@@ -247,9 +247,9 @@ body {
         width: 100%;
         height: 100%;
         aspect-ratio: 20/19;
-        border-radius: 10px;
+        border-radius: 15px;
     }
-    .main-section{
+    main{
         display: grid;
         grid-auto-flow: row;
         row-gap:24px ;
@@ -290,7 +290,7 @@ body {
 .dot:first-child{
     background-color: white;
 }
-.card-group{
+.cards-container{
     display: grid;
     grid-auto-flow: row;
     row-gap: 40px;
@@ -331,8 +331,47 @@ body {
     font-family: 'small';
     margin-left: 4px;
 }
-
-
+.continue-explore-text-and-show-more-btn{
+    margin-top: 56px;
+}
+.continue-explore-text{
+    font-family: 'medium';
+    font-size: 18px;
+    text-align: center;
+}
+.show-more-btn{
+    margin-top: 16px;
+    background-color: black;
+    padding: 14px 24px;
+    width: 132.32px;
+    height: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+.show-more-btn p{
+    margin: 0;
+    color: white;
+    font-family: 'medium';
+    font-size: 16px;
+}
+.inspiration-block{
+    padding: 48px 24px;
+    background-color: rgb(247, 247, 247);
+}
+.inspiration-text{
+    font-family: 'medium';
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.scrolling-list{
+    overflow: scroll;
+}
+.popular-text{
+    padding: 10px;
+    margin: 6px 6px 6px -10px;
+}
 
 @media screen and (min-width:767px) {
 
@@ -645,11 +684,11 @@ body {
      .nav-bar{
         box-shadow: none;
      }
-     .main-section{
+     main{
         padding-inline:40px;
         margin-top: 15.5px;
      }
-     .card-group{
+     .cards-container{
         grid-template-columns: repeat(2,1fr);
         column-gap: 24px;
      }
@@ -704,7 +743,7 @@ body {
         padding-left: 20.5px;
 
     }
-    .card-group{
+    .cards-container{
         grid-template-columns: repeat(3,1fr);
     }
 }
@@ -816,10 +855,10 @@ body {
         width: 628px;
         margin-inline: auto;
     }
-    .main-section{
+    main{
         padding: 0 80px;
     }
-    .card-group{
+    .cards-container{
         grid-template-columns: repeat(4,1fr);
     }
 
