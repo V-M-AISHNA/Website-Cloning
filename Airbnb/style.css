@@ -452,6 +452,7 @@ footer {
 .scroll-list-item:first-child {
     margin-bottom: 0px;
     border-bottom: 2px solid black;
+    padding-left: 0px;
 }
 
 .popular-text p {
@@ -657,6 +658,12 @@ footer {
 
 .rupees-icon {
     font-size: 'medium';
+}
+.host{
+    padding-bottom: 23.5px;
+}
+.airbnb{
+    padding-top: 23px;
 }
 
 .desktop {
@@ -1060,15 +1067,37 @@ footer {
     }
 
     .footer-final-block {
-        padding-top: 19.2px;
+        padding-top: 22.2px;
     }
 
     .airbnb-footer-text {
-        margin-bottom: 3.5px;
+        margin-bottom: 3.3px;
     }
-
+    .host{
+        padding: 24px 0px;
+    }
     .footer-item-main-text {
-        margin-bottom: 12.3px;
+        margin-bottom: 12.6px;
+    }
+    .footer-globe-icon{
+        margin-top: 1px;
+    }
+    .text{
+        padding-top: 0.5px;
+    }
+    .language-and-social-media-icons{
+        margin-bottom: 16.8px;
+    }
+    .facebook{
+        /* margin-top: 5px; */
+        margin-bottom: -7.2px;
+        /* width: 17.5px; */
+    }
+    .twitter{
+        margin-bottom: -7.2px;
+    }
+    .instagram{
+        margin-bottom: -7.2px;
     }
 
 }
@@ -1220,11 +1249,11 @@ footer {
     }
 
     .airbnb-footer-text {
-        margin-bottom: 3.4px;
+        margin-bottom: 2.4px;
     }
 
     .footer-final-block {
-        padding-top: 18.9px;
+        padding-top: 22.9px;
     }
 
     .language-and-social-media-icons {
@@ -1236,7 +1265,13 @@ footer {
     }
 
     .footer-globe-icon {
-        margin-top: 4px;
+        margin-top: 1px;
+    }
+    .text{
+        padding-top: 0.5px;
+    }
+    .footer-item-main-text{
+        margin-bottom: 11.4px;
     }
 }
 
@@ -1253,7 +1288,7 @@ footer {
 
     .logo-and-header-items {
         padding: 0 80px;
-        max-width: 2520px;
+        max-width: 2560px;
     }
 
     .your-home-text-and-globe-container {
@@ -1282,7 +1317,7 @@ footer {
 
     nav {
         padding: 0 80px;
-        max-width: 2520px;
+        max-width: 2560px;
     }
 
     .nav-items {
@@ -1389,6 +1424,9 @@ footer {
         margin-bottom: 11.3px;
         margin-top: 1px;
     }
+    .show{
+        align-items: unset;
+    }
 
 }
 
@@ -1401,6 +1439,14 @@ footer {
 @media screen and (min-width:1881px) {
     .cards-container {
         grid-template-columns: repeat(6, 1fr);
+    }
+    header{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    nav{
+        margin-left: auto;
+        margin-right: auto;
     }
 
 }
