@@ -917,12 +917,12 @@ max-width: 90%;
     }
     .dash-block-img{
         height: 500px;
-        /* min-width: 310.76px; */
-        /* max-width: 100%; */
+        width: 310.76px;
     }
     .dash-block-img img{
-       width: 310.76px;
+       min-width: 310.76px;
        height: 500px;
+       width: 100%;
     }
     .dash-block-text{
         width: 357.98px;
@@ -933,6 +933,36 @@ max-width: 90%;
         letter-spacing: -0.567999px;
         line-height: 44px;
 
+    }
+    .dash-block-sub-text{
+        font-size: 16px;
+        margin-top: 20px;
+        line-height: 22px;
+    }
+    .become-button{
+        margin-top: 30px;
+        width: 152.96px;
+        height: 40px;
+    }
+    .become-text{
+        font-size: 16px;
+    }
+    .grow-your-business-block{
+        display: flex;
+        flex-direction: row;
+        column-gap: 60px;
+        padding: 32px 20px 20px;
+    }
+    .grow-your-business-block .dash-block-img img{
+        min-width: 306.95px;
+    }
+    .grow-your-business-block .dash-block-text{
+       min-width: 361.05px;
+        height: 308px;
+    }
+    .grow-your-business-block .become-button{
+        width: 156.4px;
+        height: 40px;
     }
 
 }
