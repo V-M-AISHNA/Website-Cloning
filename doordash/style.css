@@ -1,0 +1,1119 @@
+@font-face{
+    font-family: "bold";
+    src: url(assets/fonts/TTNorms-Bold.woff2);
+    font-weight: 600;
+}
+@font-face{
+    font-family: "medium";
+    src: url(assets/fonts/TTNorms-Medium.woff2);
+    font-weight: 500;
+}
+@font-face{
+    font-family: "regular";
+    src: url(assets/fonts/TTNorms-Regular.woff2);
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.hero-section{
+    background-image: url(assets/images/hero_mobile.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign-in-and-sign-up-button{
+    padding-top: 16px;
+    display: flex;
+    justify-content: right;
+    padding-right: 24px;
+    /* padding-right: 23.5px; */
+    text-align: center;
+    gap: 8px;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+}
+.sign-in-btn{
+    width: 72.03px;
+    height: 32px;
+    background-color: #EB1700;
+    display: flex;
+    align-items: center;
+    border-radius: 24px;
+}
+.sign-in-text{
+    color: white;
+    font-family: "bold";
+    font-size: 16px;
+    padding: 0px 12px;
+    text-wrap: nowrap;
+    margin: 0;
+    text-align: center;
+    letter-spacing: -0.454399px;
+    padding-bottom: 1px;
+}
+.sign-up-btn{
+ width: 79.55px;
+ height: 32px;
+ background-color: #ffffff;
+ display: flex;
+ align-items: center;
+ /* border: 2px solid black; */
+ border-radius: 24px;
+}
+.sign-up-text{
+    font-family: "bold";
+    font-size: 16px;
+    color: #494949;
+    padding: 0 12px;
+    margin: 0;
+    text-wrap: nowrap;
+    letter-spacing: -0.454399px;
+    padding-bottom: 1px;
+}
+.hero-content{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.logo-and-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.name{
+    margin-left: 12px;
+    font-family: "bold";
+    margin-bottom: 2px;
+}
+.text-searchbar-and-profile-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero-text{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+.text{
+    font-family: "bold";
+    font-size: 22px;
+    max-width: 350px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    color: #ffffff;
+    text-align: center;
+}
+.search-bar-container{
+    width: 316px;
+    height: 47.7px;
+    padding: 4px 4px 4px 16px;
+    background-color: #ffffff;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+}
+.search-icon{
+    margin: 5px 12px 0px 0px;
+}
+.delivery-address-text{
+    margin: 0px 12px 0px 0px;
+    width: 208px;
+}
+.address-text{
+    font-family: "medium";
+    
+    line-height: 22px;
+    color: rgb(109 100 100);
+}
+.next-arrow{
+    display: flex;
+    align-items: center;
+      color: rgb(73, 73, 73);
+      margin: 0px;
+      text-align: center;
+      padding: 0px;
+      padding-left: 8px;
+      padding-top: 5px;
+}
+.profile{
+    margin-top: 16px;
+    background-color: #ffffff;
+    width: 88.8px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    border-radius: 24px;
+}
+.profile-icon-and-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 12px;
+}
+.icon{
+    margin-top: 5px;
+}
+.profile-text{
+    margin-left: 2px;
+    font-family: "bold";
+    font-size: 14px;
+    text-wrap: nowrap;
+
+}
+.location-icon{
+    display: none;
+}
+.desktop-logo{
+    display: none;
+}
+.desktop-name{
+    display: none;
+}
+.header{
+    display: none;
+}
+.desktop-profile{
+    display: none;
+}
+.desktop-view-arrow-container{
+    display: none;
+}
+.door-dash-app-ad-container{
+    margin: 0px auto;
+    width: 400px;
+    height: 168px;
+}
+.door-dash-ad-block{
+    width: 360px;
+    height: 148px;
+    margin: 20px 20px 0px 20px;
+    background-color: rgb(247, 247, 247);
+    border-color: rgb(231, 231, 231);
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 16px;
+    padding: 20px;
+}
+.ad-contents{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    
+}
+.red-logo-block{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 16px;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    margin-right: 8px;
+    padding-bottom: 10px;
+}
+.doordash-app-text{
+    font-family: "bold";
+    font-size: 18px;
+    margin: 0 0 4px 0px;
+    letter-spacing: -0.511201px;
+}
+.food-text{
+    font-family: "medium";
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: rgb(118, 118, 118);
+}
+.get-the-mobile-app-container{
+    background-color: #EB1700;
+    border-radius: 24px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 124.33px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+}
+.get-the-mobile-app-text{
+    font-family: "bold";
+    font-size: 14px;
+    color: #ffffff;
+}
+.get-next-arrow{
+    fill: #ffffff;
+    margin-left: 6px;
+    margin-top: 7px;
+}
+.partner-dasher-experience-container{
+    margin: 40px 0px;
+    padding: 8px;
+}
+.block-item{
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+}
+.block-img{
+    margin-right: 32px;
+}
+.block-item img{
+    width: 88px;
+    height: 88px;
+}
+.block-texts{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+.block-main-text{
+    font-family: "bold";
+    font-size: 32px;
+    letter-spacing: -0.908799px;
+    line-height: 40px;
+}
+.block-sub-text{
+    font-family: "medium";
+    font-size: 18px;
+    line-height: 24px;
+    width: 250px;
+}
+.block-red-text-and-arrow{
+    margin-top: 12px;
+color: #EB1700;
+font-family: "bold";
+font-size: 14px;
+letter-spacing: -0.397598px;
+
+}
+.red-arrow{
+    margin-top: 2px;
+}
+
+.everything-you-crave-block{
+    padding: 20px;
+}
+.everything-img img{
+    width: 385.6px;
+    height: 180px;
+}
+.everything-block-main-text{
+    font-family: "bold";
+    font-size: 24px;
+    color: #191919;
+    letter-spacing: -0.1704px;
+    line-height: 32px;
+    max-width: 90%;
+    margin-top: 20px;
+}
+.your-favorite-text{
+    font-family: "bold";
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 10px;
+    color: rgb(25, 25, 25);
+}
+.everything-block-sub-text{
+    font-family: "medium";
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.find-restaurant-block{
+    margin-top: 20px;
+    width: 130.9px;
+    height: 32px;
+    border-radius: 24px;
+    background-color: #EB1700;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+}
+.find-restaurant-text{
+    color: #ffffff;
+    font-family: "bold";
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+
+}
+.dash-pass-block{
+    padding: 20px;
+}
+.dash-pass-img img{
+    width: 385.6px;
+    height: 180px;
+}
+.dashpass-desktop{
+    display: none;
+}
+.grocery-container{
+    background-image: url(assets/images/grocery_desktop.png);
+    height: 350px;
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    
+}
+.grocery-block{
+    height: 100%;
+    width: 100%;
+background-color: rgba(30, 30, 30, 0.6);
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.get-grocery-block{
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+    justify-content: center;
+}
+.get-grocery-main-text{
+    color: white;
+    filter: drop-shadow(rgba(0, 0, 0, 0.2) 0px 2px 8px);
+    font-family: "bold";
+    font-size: 24px;
+    text-align: center;
+    line-height: 32px;
+    margin-top: 20px;
+    max-width: 90%;
+}
+.grocery-delivery-text{
+    color: rgb(255, 255, 255);
+    filter: drop-shadow(rgba(0, 0, 0, 0.2) 0px 2px 8px);
+    font-family: "bold";
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 10px;
+
+}
+.get-grocery-sub-text{
+    color: rgb(255, 255, 255);
+    font-family: "medium";
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px;
+    text-align: center;
+    filter: drop-shadow(rgba(0, 0, 0, 0.2) 0px 2px 8px);
+}
+.shop-groceries-button{
+    background-color: #EB1700;
+    border-radius: 24px;
+    min-height: 32px;
+    max-width: 100%;
+    width: 124.037px;
+    margin-top: 20px;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+}
+.shop-groceries-text{
+    color: #ffffff;
+    font-family: "bold";
+    font-size: 14px;
+}
+.door-step-container{
+    padding: 20px;
+}
+.door-step-img img{
+    width: 385.6px;
+    height: 180px;
+}
+.door-step-texts{
+    width: 385.6px;
+    height: 186px;
+}
+.door-step-main-text{
+color: rgb(25, 25, 25);
+font-family: "bold";
+font-size: 24px;
+letter-spacing: -0.1704px;
+line-height: 32px;
+margin-top: 20px;
+max-width: 90%;
+}
+.door-step-sub-text{
+    font-family: "medium";
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.shop-now-button{
+    background-color: #EB1700;
+    width: 90.85px;
+    height: 32px;
+    margin-top: 20px;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+}
+.shop-now-text{
+    font-family: "bold";
+    font-size: 14px;
+    color: #ffffff;
+}
+.desktop-doorstep{
+    display: none;
+}
+.helping-you-text-and-cards-container{
+    background-color: #fef1ee;
+}
+.helping-you-container{
+    padding: 40px 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.helping-you-text{
+    font-family: "bold";
+    font-size: 24px;
+    color: #191919;
+    letter-spacing: -0.1704px;
+    line-height: 32px;
+    width: 300px;
+    height: 64px;
+    text-align: center;
+}
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    overflow: scroll;
+}
+.cards-container::-webkit-scrollbar{
+    display: none;
+}
+.card{
+    min-width: 90%;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: -10%;
+}
+.card-img{
+    min-width: 343.04px;
+    height: 180px;
+}
+.card-img img{
+    width: 100%;
+    height: 100%;
+}
+.card-text{
+    min-width: 343.04px;
+    min-height: 206px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-main-text{
+    font-family: "bold";
+    font-size: 24px;
+    margin-top: 20px;
+    color: #191919;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.1704px;
+    line-height: 32px;
+    max-width: 90%;
+}
+.card-sub-text{
+    margin-top: 10px;
+    font-family: "medium";
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+.package-pickup-button{
+    background-color: #EB1700;
+    width: 150.7px;
+    height: 32px;
+    padding: 0 12px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+}
+.package-pick-up-text{
+    font-family: "bold";
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 16px;
+}
+.pickup-shop-now{
+    width: 90.85px;
+}
+.shop-alcohol{
+    width: 110.738px;
+}
+.age-limit-text{
+    font-family: "medium";
+    font-size: 12px;
+    letter-spacing: 0.0852006px;
+    line-height: 18px;margin-top: 10px;
+}
+.get-pet{
+    width: 133.7px;
+}
+.unlocking-opportunity-container{
+    padding: 40px 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.unlocking-opportunity-text{
+    font-family: "bold";
+    font-size: 24px;
+    width: 300px;
+    height: 64px;
+    color: #191919;
+    text-align: center;
+    letter-spacing: -0.1704px;
+    line-height: 32px;
+}
+.sign-up-to-dash-block{
+    padding: 20px;
+}
+.dash-block-img img{
+    min-width: 385.5px;
+    height: 180px;
+    width: 100%;
+}
+.dash-block-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.dash-block-main-text{
+    font-family: "bold";
+    font-size: 24px;
+    letter-spacing: -0.1704px;
+    line-height: 32px;
+    max-width: 90%;
+    margin-top: 20px;
+}
+.dash-block-sub-text{
+    font-family: "medium";
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.become-button{
+    background-color: #EB1700;
+    width: 136.85px;
+    height: 32px;
+    border-radius: 24px;
+    margin-top: 20px;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+}
+.become-text{
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "bold";
+
+}
+.dasher-desktop{
+    display: none;
+}
+.grow-your-business-block{
+    padding: 20px;
+}
+.grow-your-business-block .become-button{
+    width: 139.85px;
+}
+@media screen and (min-width:767px) {
+    .sign-in-btn{
+        width: 78.03px;
+        height: 40px;
+    }
+    .sign-up-btn{
+        width: 86.49px;
+        height: 40px;
+    }
+    .sign-in-text{
+        font-size: 18px;
+        letter-spacing: -0.511201px;
+    }
+    .sign-up-text{
+        font-size: 18px;
+        letter-spacing: -0.511201px;
+    }
+    .hero-section{
+       height: 650px;
+       flex-direction: column;
+    }
+    .header{
+        display: flex;
+    }
+    .logo-and-name{
+        top: 0;
+        margin-top: 23.5px;
+    }
+    .text-searchbar-and-profile-container{
+        flex-grow: 1;
+    }
+    .search-bar-container{
+        width: 408px;
+        height: 56px;
+    }
+    .hero-content{
+        height: 584px;
+        width: 408px;
+        margin-top: 6px;
+    }
+    .hero-content .logo-and-name{
+        display: none;
+    }
+    .search-icon{
+        display: none;
+    }
+    .location-icon{
+        display: block;
+        margin-right: 12px;
+        margin-top: 4px;
+        margin-left: 4px;
+    }
+    .delivery-address-text {
+        margin: 0px 12px 1px 0px;
+    }
+    .next-arrow{
+        padding-left: 92px;
+    }
+    .profile-text{
+        margin-bottom: 1px;
+    }
+    .door-dash-app-ad-container{
+        display: none;
+    }
+    .partner-dasher-experience-container{
+        margin: 32px auto;
+        display: flex;
+        justify-content: center;
+    }
+    .block-img img{
+        width: 124px;
+        height: 124px;
+    }
+    .block-img{
+        margin-right: 64px;
+    }
+    .everything-you-crave-block{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        column-gap: 60px;
+    }
+    .everything-img img{
+        width: 293.6px;
+        height: 500px;
+    }
+    .everything-block-main-text{
+        font-size: 40px;
+        letter-spacing: -0.567999px;
+        line-height: 44px;
+    }
+    .everything-text{
+        width: 374.4px;
+        height: 306px;
+        text-align: left;
+    }
+    .your-favorite-text{
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    .everything-block-sub-text{
+        font-size: 16px;
+    }
+    .find-restaurant-block{
+        width: 146.16px;
+        height: 40px;
+    }
+    .find-restaurant-text{
+        font-size: 16px;
+    }
+    .dashpass-mobile{
+        display: none;
+    }
+    .dashpass-desktop{
+        display: block;
+    }
+    .dash-pass-img img{
+        width: 302.65px;
+        height: 500px;
+    }
+    .dash-pass-block{
+        display: flex;
+        column-gap: 60px;
+        align-items: center;
+    }
+    .get-grocery-main-text{
+        font-size: 40px;
+        letter-spacing: 0.567999px;
+        line-height: 44px;
+    }
+    .grocery-container{
+        height: 600px;
+    }
+    .get-grocery-block{
+        max-width: 550px;
+    }
+    .grocery-delivery-text{
+        margin-top: 20px;
+        font-size: 24px;
+    }
+    .get-grocery-sub-text{
+        font-size: 16px;
+    }
+    .shop-groceries-button{
+        margin-top: 30px;
+        width: 138.32px;
+        height: 40px;
+    }
+    .shop-groceries-text{
+        font-size: 16px;
+    }
+    .door-step-container{
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        padding-top: 60px;
+        column-gap: 60px;
+    }
+    .mobile-doorstep{
+        display: none;
+    }
+    .desktop-doorstep{
+        display: block;
+    }
+    .door-step-img img{
+        width: 350.13px;
+        height: 500px;
+    }
+    .door-step-texts{
+        height: 308px;
+    }
+    .door-step-main-text{
+        font-size: 40px;
+        letter-spacing: -0.567999px;
+        line-height: 44px;
+    }
+    .door-step-sub-text{
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .shop-now-button{
+        width: 100.4px;
+        height: 40px;
+        margin-top: 30px;
+    }
+    .shop-now-text{
+        font-size: 16px;
+    }
+    .helping-you-container{
+        padding: 60px 20px 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .helping-you-text{
+        font-family: "bold";
+        font-size: 40px;
+        color: #191919;
+        letter-spacing: -0.567999px;
+        line-height: 44px;
+        width: 500px;
+        height: 88px;
+        text-align: center;
+    }
+    .cards-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        overflow: unset;
+    }
+    .card{
+        margin: 0;
+        width: 384px;
+        height: 648px;
+    }
+    .card-img{
+        width: 344px;
+        height: 344px;
+    }
+    .card-text{
+        width: 344px;
+        height: 264px;
+    }
+    .card-main-text{
+        font-size: 40px;
+        letter-spacing: -0.567999px;
+        line-height: 44px;
+    }
+    .card-sub-text{
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .package-pickup-button{
+        width: 168.8px;
+        height: 40px;
+        margin-top: 30px;
+    }
+    .package-pick-up-text{
+        font-size: 16px;
+    }
+    .pickup-shop-now{
+        width: 100.4px;
+    }
+    .shop-alcohol{
+        width: 123.13px;
+    }
+    .get-pet{
+        width: 149.36px;
+    }
+    .unlocking-opportunity-container{
+        padding: 60px 20px 40px;
+    }
+    .unlocking-opportunity-text{
+        width: 500px;
+        height: 88px;
+        font-size: 40px;
+        letter-spacing: -0.567999px;
+        line-height: 44px;
+    }
+    .dasher-mobile{
+        display: none;
+    }
+    .dasher-desktop{
+        display: block;
+    }
+    .sign-up-to-dash-block{
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 20px;
+        align-items: center;
+        column-gap: 60px;
+    }
+    .dash-block-img{
+        height: 500px;
+        /* min-width: 310.76px; */
+        /* max-width: 100%; */
+    }
+    .dash-block-img img{
+       width: 310.76px;
+       height: 500px;
+    }
+    .dash-block-text{
+        width: 357.98px;
+        height: 264px;
+    }
+    .dash-block-main-text{
+        font-size: 40px;
+        letter-spacing: -0.567999px;
+        line-height: 44px;
+
+    }
+
+}
+@media screen and (min-width:1023px) {
+    .mobile-view-logo{
+        display: none;
+    }
+    .mobile-view-name{
+        display: none;
+    }
+    .desktop-logo{
+        display: block;
+    }
+    .desktop-name{
+        display: block;
+        margin-top: 1px;
+    }
+    .logo-and-name{
+        margin-top: 24px;
+    }
+    .name{
+        margin-bottom: 1px;
+    }
+    .hero-content{
+        width: 720.65px;
+    }
+    .text-searchbar-and-profile-container{
+        width: 100%;
+    }
+    .text{
+        font-size: 40px;
+        white-space:nowrap;
+        text-align: center;
+        max-width: unset;
+        letter-spacing: -0.567999px;
+    }
+    .hero-text{
+        margin-bottom: 32px;
+        margin-top: 11px;
+    }
+    .location-icon{
+        margin-top: 5px;
+    }
+    .delivery-address-text{
+        margin-bottom: 0px;
+    }
+    .mobile-profile{
+        display: none;
+    }
+    .desktop-profile{
+        display: block;
+    }
+    .profile{
+        width: 203.75px;
+    }
+    .profile-text{
+        margin-left: 2px;
+        margin-top: 1px;
+    }
+   
+    .desktop-arrow{
+        margin-top: 5px;
+    }
+    .desktop-arrow path{
+        fill: rgb(255, 255, 255);
+    }
+    .next-arrow {
+        padding-left: 92px;
+    }
+    .hero-section{
+        background-image: url(assets/images/hero_desktop.webp);
+        background-size: cover;
+    }
+    .doordash-delivery-block{
+        display: flex;
+        flex-direction: column;
+    }
+    .everything-img img{
+        width: 524px;
+        height: 500px;
+    }
+    .find-restaurant-block{
+        margin-top: 30px;
+    }
+    .everything-text{
+        width: 400px;
+    }
+    .dash-pass-img img{
+        width: 524px;
+        height: 500px;
+    }
+    .card-img {
+        width: 472px;
+        height: 472px;
+    }
+    .card{
+        width: 512px;
+        height: 754px;
+    }
+    .card-text{
+        width: 472px;
+        height: 242px;
+    }
+    .unlocking-opportunity-container{
+        padding: 60px 20px 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .unlocking-opportunity-text{
+        font-family: "bold";
+        font-size: 40px;
+        width: 500px;
+        height: 88px;
+        color: #191919;
+        text-align: center;
+    }
+
+}
+@media screen and (min-width:1440px) {
+    .mobile-view-arrow{
+        display: none;
+    }
+    .desktop-view-arrow-container{
+        display: flex;
+        align-items: center;
+        background-color: #EB1700;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        margin: 0;
+        justify-content: center;
+    }
+    .next-arrow {
+        padding-left: 84px;
+        padding-top: 1px;
+    }
+    .desktop-arrow{
+        margin-top: 4px;
+    }
+    .partner-dasher-experience-block-items{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        width: 1182px;
+        height: 446px;
+    }
+    .block-item{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 17px;
+        width: 360px;
+        flex-wrap: nowrap;
+    }
+    .block-img img {
+        width: 154px;
+        height: 154px;
+    }
+    .block-img{
+        display: flex;
+        justify-content: center;
+        width: 264px;
+    }
+    .partner-dasher-experience-container{
+        margin: 96px 0px;
+        padding: 12px;
+    }
+    .block-texts{
+        /* text-align: left; */
+        flex-wrap: nowrap;
+    }
+    .block-main-text{
+        text-align: center;
+    }
+    .block-sub-text{
+        margin-top: 8px;
+        text-align: center;
+    }
+    .block-red-text-and-arrow{
+        font-size: 18px;
+        text-align: center;
+    }
+}
