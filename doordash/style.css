@@ -309,8 +309,9 @@ letter-spacing: -0.397598px;
     padding: 20px;
 }
 .everything-img img{
-    width: 385.6px;
+    /* width: 385.6px; */
     height: 180px;
+    width: 100%;
 }
 .everything-block-main-text{
     font-family: "bold";
@@ -356,8 +357,9 @@ letter-spacing: -0.397598px;
     padding: 20px;
 }
 .dash-pass-img img{
-    width: 385.6px;
+    /* width: 385.6px; */
     height: 180px;
+    width: 100%;
 }
 .dashpass-desktop{
     display: none;
@@ -434,8 +436,9 @@ flex-direction: column;
     padding: 20px;
 }
 .door-step-img img{
-    width: 385.6px;
+    /* width: 385.6px; */
     height: 180px;
+    width: 100%;
 }
 .door-step-texts{
     width: 385.6px;
@@ -644,6 +647,184 @@ max-width: 90%;
 .grow-your-business-block .become-button{
     width: 139.85px;
 }
+footer{
+    background-color: rgb(25, 25, 25);
+    padding: 0 20px;
+}
+.footer-items{
+    max-width: 1160px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+}
+.top-cities-block{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: #ffffff;
+    width: 186.8px;
+}
+.block-header{
+    font-family: "medium";
+    font-size: 16px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.first-block-item{
+    font-family: "medium";
+    font-size: 14px;
+    color: #c4c4c4;
+    margin-top: 8px;
+    text-align: center;
+}
+.city-blocks{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px;
+    text-align: center;
+}
+.cities-and-cuisines-container{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: center;
+}
+.top-cuisines-block{
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: #ffffff;
+    width: 186.8px;
+}
+.cuisines-blocks{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px;
+}
+.popular-categories-container{
+    padding: 32px 0px;
+    color: #ffffff;
+    text-align: center;
+}
+.popular-blocks{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px;
+}
+.app-store-button{
+    width: 160px;
+    height: 52px;
+    background-color: #494949;
+    padding: 2px 8px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
+.play-store-button{
+    width: 160px;
+    height: 52px;
+    background-color: #494949;
+    padding: 2px 8px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    margin-top: 12px;
+}
+.play-store-and-app-store-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 32px;
+    opacity: 0.7;
+}
+.get-to-know-block{
+    margin-top: 32px;
+    color: #ffffff;
+}
+.help-you-block{
+    padding-top: 32px;
+    color: #ffffff;
+}
+.doing-business-block{
+    padding-top: 32px;
+    color: #ffffff;
+}
+.footer-last-block{
+    padding: 32px 0px;
+}
+.social-media-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+}
+.twitter-icon{
+    margin-left: 12px;
+}
+.instagram-icon{
+    margin-left: 12px;
+}
+.language-container{
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.language-block{
+    width: 150px;
+    height: 32px;
+    padding: 4px 12px;
+    background-color: #f7f7f7;
+    display: flex;
+    min-height: 32px;
+    border-radius: 16px;
+}
+select{
+    border: none;
+    width: 94px;
+    height: 20px;
+    padding-top: 3px;
+    padding-right: 6px;
+    font-family: "medium";
+    font-size: 14px;
+}
+.globe-icon{
+    margin-right: 4px;
+}
+.footer-text{
+    font-size: 12px;
+    font-family: "regular";
+    color: #c4c4c4;
+    margin-left: 16px;
+    line-height: 18px;
+}
+.logo-and-texts{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+}
+.logo-footer{
+    margin-top: -6px;
+    margin-bottom: -12px;
+}
+.doing-business-block{
+    display: flex;
+    flex-direction: column;
+    gap: 3.49px;
+    padding-bottom: 5px;
+}
+.footer-last-block{
+    padding-top: 27.5px;
+}
+
+
 @media screen and (min-width:767px) {
     .sign-in-btn{
         width: 78.03px;
@@ -964,6 +1145,58 @@ max-width: 90%;
         width: 156.4px;
         height: 40px;
     }
+    .cities-and-cuisines-container{
+        flex-direction: column;
+    }
+    .top-cities-block{
+        width: unset;
+    }
+    .city-blocks{
+        display: flex;
+       flex-direction: row;
+        justify-content: space-between;
+        gap: 12px;
+        text-align: left;
+    }
+    .first-block-item{
+        text-align: left;
+    }
+    .first-block , .second-block ,.third-block{
+        width:247.46px;
+    }
+    .top-cuisines-block{
+        text-align: left;
+        width: unset;
+    }
+    .cuisines-blocks{
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+        justify-content: left;
+    }
+    .cuisines-blocks .first-block,.second-block{
+        width: 358px;
+    }
+    .block-header{
+        text-align: left;
+    }
+    .popular-blocks{
+        display: flex;
+        flex-direction: row;
+        text-wrap: nowrap;
+        gap: 12px;
+        /* width: 728px; */
+    }
+    .popular-blocks .first-block , .second-block ,.third-block,.fourth-block{
+        width: 173px;
+    }
+    .get-to-know-help-and-business-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 12px;
+    
+    }
 
 }
 @media screen and (min-width:1023px) {
@@ -1080,6 +1313,55 @@ max-width: 90%;
         color: #191919;
         text-align: center;
     }
+    .dash-block-img {
+        min-width: 524px;
+    }
+    /* .sign-up-to-dash-block{
+        justify-content: left;
+    } */
+    .sign-up-to-dash-block {
+        justify-content: center;
+    }
+    .dash-block-text{
+        width: 400px;
+    }
+    .grow-your-business-block .dash-block-img img{
+        min-width: 524px;
+    }
+    .grow-your-business-block{
+        align-items: center;
+    }
+    .sign-up-to-dash-and-grow-your-business-container{
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .grow-your-business-block{
+        justify-content: center;
+    }
+    .cities-and-cuisines-container{
+        display: flex;
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+    }
+    .top-cities-block{
+        width: 486px;
+    }
+    .top-cuisines-block{
+        width: 486px;
+    }
+    .button-about-know-more-container{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .get-to-know-help-and-business-container{
+       gap: 61px;
+    }
+    .cities-and-cuisines-container{
+        justify-content: left;
+    }
 
 }
 @media screen and (min-width:1440px) {
@@ -1145,5 +1427,36 @@ max-width: 90%;
     .block-red-text-and-arrow{
         font-size: 18px;
         text-align: center;
+    }
+    .everything-img img{
+        width: 695.03px;
+    }
+    .dash-block-img{
+        min-width: 695.03px;
+    }
+    .dash-block-img img{
+        min-width: 695.03px;
+    }
+    .sign-up-to-dash-block{
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .grow-your-business-block .dash-block-img img {
+        min-width: 724px;
+    }
+    .grow-your-business-block .dash-block-img{
+        min-width: 724px;
+    }
+    .grow-your-business-block{
+        justify-content: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .top-cities-block{
+        width: 554px;
+    }
+    .top-cuisines-block{
+        width: 554px;
     }
 }
